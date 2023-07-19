@@ -1,0 +1,207 @@
+.sobre{
+    position: relative;
+    top: 18rem;
+}
+
+.myName{
+    width: 100%;
+    font-size: 2.5em;
+    position: relative;
+    z-index: 99;
+    padding: 0px 35px;
+    background: #ca89f2;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.box h2{
+    padding: 2rem;
+    font-size: 1.5rem;
+    color: linear-gradient(90deg, #3f51b5, transparent) #2196f3;
+    color: #ca89f2
+}
+
+.main-text{
+    background: transparent;
+    margin: 0 36px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    font-size: 1.7rem;
+}
+.sobre h2:after {
+    content: "";
+    background: linear-gradient(90deg, rgb(250, 82, 82) 0%, rgb(221, 36, 118) 100%);
+    height: 3px;
+    width: 30%;
+}
+.main-text p, span{
+    color: #ffffff;
+}
+
+.main-text span{
+    font-size: 0.95rem;
+}
+.main-text p{
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.graphBox{
+    position: relative;
+    width: 100%;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 30px;
+    min-height: 200px;
+}
+
+.minhas-stacks p{
+    margin-bottom: 1rem;
+}
+
+.box{
+    position: relative;
+    background: rgba(0,0,0,0.85);
+    display: flex;
+    flex-direction: column;
+    padding: 2.8rem;
+    width: 100%;
+    border-radius: 20px;
+    color: white;
+}
+
+#box-left{
+    height: 115vh;
+}
+
+.meImg{
+    width: 80%;
+    object-fit: cover;
+    margin: 20px auto;
+    display: block;
+    border-radius: 10px;
+}
+
+.btn{
+    background: linear-gradient(90deg, #404040, transparent) #020202;
+    padding: 8px;
+    border-radius: 20px;
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 1s;
+    place-content: center;
+    display: flex;
+    width: 50%;
+    margin: 0 auto;
+}
+.btn:hover{
+    background-color: #313131;
+    color: #fff;
+}
+.my-projects{
+    display: flex;
+    flex-direction: column;
+}
+.my-projects p{
+    padding: 2rem;
+}
+.my-projects .btn-projetcs{
+    text-decoration: none;
+    background: linear-gradient(90deg, #404040, transparent) #020202;
+    border-radius: 83px;
+    padding: 1.2rem 2.5rem;
+    color: #ffffff;
+    width: 30%;
+    text-align: center;
+}
+.my-projects .btn-projetcs:hover{
+    background-color: #313131;
+    color: #fff;
+}
+
+.reveal.active {
+    transform: translateX(-10px);
+    opacity: 1;
+}
+
+.reveal {
+    position: relative;
+    transform: translateX(150px);
+    opacity: 0;
+    transition: all 2s ease;
+}
+section .container {
+    margin: 100px;
+}
+
+@media (max-width: 991px){
+    .sobre {
+        top: 8rem;
+    }
+    .graphBox {
+        grid-template-columns: 1fr;
+        padding: 0;
+    }
+    .sobre h2 {
+        font-size: 1.4rem;
+        padding: 1.5rem;
+    }
+    .box {
+        padding: 2rem;
+        /* width: 90%; */
+        margin: auto;
+        border-radius: 0
+    }
+    .btn {
+        width: 60%;
+        margin-bottom: 40px;
+    }
+    .my-projects{
+        display: flex;
+        flex-direction: column;
+    }
+    .minhas-stacks h2{
+        padding: 1rem;
+    }
+    .my-projects h2{
+        padding: 1rem;
+    }
+    .my-projects p{
+        padding: 1.5rem;
+    }
+    .my-projects .btn-projetcs {
+        width: 100%;
+    }
+    .main-text {
+        padding: 41px 50px;
+        margin: 0;
+        width: 100%;
+        font-size: 1rem;
+    }
+    #box-left {
+        height: 117vh;
+        padding: 0;
+        background: #111;
+    }
+    #information {
+        margin: 40px auto;
+        padding: 4px !important;
+    }
+    .reveal.active {
+        transform: translateY(-10px);
+        opacity: 1;
+    }
+    
+    .reveal {
+        position: relative;
+        transform: translateY(150px);
+        opacity: 0;
+        transition: all 2s ease;
+    }
+    .graphBox {
+        grid-gap: 0px;
+    }
+}

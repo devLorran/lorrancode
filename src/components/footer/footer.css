@@ -1,0 +1,28 @@
+.footer{
+    height: 20vh;
+    display: flex;
+    top: 35rem;
+    position: relative;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    background: rgba(0,0,0,0.85);
+    color: white;
+}
+
+.imgFooter{
+    width: 10%;
+}
+
+@media (max-width: 992px){
+    .footer {
+        height: 35vh;
+        padding: 2rem;
+        flex-direction: column;
+        top: 51rem;
+    }
+    .imgFooter {
+        width: 40%;
+    }
+}
