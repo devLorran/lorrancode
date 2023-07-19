@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/lorrancode/static/css/main.5daa34d6.css",
+    "main.css": "/lorrancode/static/css/main.4774a418.css",
     "main.js": "/lorrancode/static/js/main.835f725b.js",
     "static/media/Lorran.jpg": "/lorrancode/static/media/Lorran.b329ac59d32aee4b64b9.jpg",
     "static/media/LorranCode2.png": "/lorrancode/static/media/LorranCode2.8fe676228c364685516f.png",
     "index.html": "/lorrancode/index.html",
-    "main.5daa34d6.css.map": "/lorrancode/static/css/main.5daa34d6.css.map",
+    "main.4774a418.css.map": "/lorrancode/static/css/main.4774a418.css.map",
     "main.835f725b.js.map": "/lorrancode/static/js/main.835f725b.js.map"
   },
   "entrypoints": [
-    "static/css/main.5daa34d6.css",
+    "static/css/main.4774a418.css",
     "static/js/main.835f725b.js"
   ]
 }
