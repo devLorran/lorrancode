@@ -182,7 +182,7 @@ section .container {
         font-size: 1rem;
     }
     #box-left {
-        height: 117vh;
+        height: 160vh;
         padding: 0;
         background: #111;
     }
@@ -205,3 +205,10 @@ section .container {
         grid-gap: 0px;
     }
 }
+/* @media ((min-width: 390px) and (max-width: 844px)){
+    #box-left {
+        background: #111;
+        height: 400vh;
+        padding: 0;
+    }
+} */

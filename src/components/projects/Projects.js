@@ -4,7 +4,7 @@ export const Projects = () => {
   return (
     <div id="projects" className="div-projects">
     <section className="realeased-projects">
-        <h2> Projetos </h2>
+        <h2> Projetos em destaque </h2>
         <div className="projects-grid reveal">
             <div className="project-card">
                 <span>Clone da NetFlix</span>
@@ -20,6 +20,16 @@ export const Projects = () => {
                 <span>Dashboard</span>
                 <p> Dashboard responsivo feito com HTML5, CSS3, JavaScript e Vanilla para utilização de gráficos  </p>
                 <a href="https://devlorran.github.io/dashboard/" target="_blank">Ver Projeto</a>
+            </div>
+            <div className="project-card">
+                <span>Clone do Threads</span>
+                <p> Clone do Threads feito com React Native e Styled Components e expo </p>
+                <a href="https://github.com/devLorran/threads-clone" target="_blank">Ver Projeto</a>
+            </div>
+            <div className="project-card">
+                <span>Clone do Tiktok</span>
+                <p> Clone do Tiktok feito com React Native e expo </p>
+                <a href="https://github.com/devLorran/tiktok-clone" target="_blank">Ver Projeto</a>
             </div>
         </div>
         

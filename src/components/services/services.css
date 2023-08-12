@@ -1,5 +1,4 @@
 .div-services{
-    padding: 1.2rem;
     position: relative;
     top: 30rem;
 }
@@ -11,9 +10,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 50vh;
     padding: 10rem;
-    border-radius: 18px;
+
 }
 .realeased-services h2{
     margin: 20px auto;
@@ -21,12 +19,14 @@
 }
 
 .services-grid{
-    display: flex;
+    display: grid;
     gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
 }
 
 .services-card{
-    width: 45%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     gap: 25px;

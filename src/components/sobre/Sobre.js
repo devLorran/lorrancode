@@ -9,16 +9,15 @@ export const Sobre = () => {
     return (
         <div id="sobre" className='sobre reveal'>
             <div className="main-text">
-                <p> Ajudando pessoas dar seus primeiros passos em programação e também contribuindo com o crescimento das empresas através da programação </p>
+                <p> Ajudando pessoas com seus primeiros passos em programação e também contribuindo com o crescimento das empresas através da programação </p>
                 <span>Usando o Front-End e conhecimentos profissionais para destacar os seus produtos no mercado</span>
             </div>
             <h2 className='myName'>Lorran Rodrigues</h2>
             <div className='graphBox'>
             <div className='box' id="box-left">
-                <img className='meImg' src={image} alt='Lorran'/>
+                <img className='meImg' src={image} alt='Lorran'/> 
                 <SocialNetworks />
                 <InformationContainer />
-                {/* <a className='btn' href="#">Download currículo</a> */}
             </div>
             <div className='box'>
                 <h2>Sobre</h2>
@@ -29,7 +28,7 @@ export const Sobre = () => {
             <section className='my-projects reveal'>
                 <h2>Projetos Feitos</h2>
                 <p>Clicando nesse botão você pode ver todos os projetos que realizei ao longo da minha carreira como desenvolvedor</p>
-                <a href="#" className="btn-projetcs">Ver Projetos</a>
+                <a href="https://github.com/devLorran?tab=repositories" target="_blank" className="btn-projetcs">Ver repositórios</a>
             </section>
             </div>
         </div>

@@ -11,7 +11,7 @@ export const Header = () => {
                 <input type='checkbox' className='toggle-menu' />
                 <div className='hamburger'></div>
                 <ul className='menu'>
-                    <li> <a href="#header">Home</a> </li>
+                    <li> <a href="#">Home</a> </li>
                     <li> <a href="#sobre">Sobre</a> </li>
                     <li> <a href="#tecnologia">Stacks</a> </li>
                     <li> <a href="#projects">Projetos em destaque</a> </li>
