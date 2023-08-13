@@ -71,6 +71,8 @@ section .container {
         height: 60rem;
         padding: 2rem;
         border-radius: 0;
+        position: relative;
+        top: 436px;
     }
     .services-card {
         width: 100%;
