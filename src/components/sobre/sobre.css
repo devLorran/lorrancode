@@ -182,7 +182,7 @@ section .container {
         font-size: 1rem;
     }
     #box-left {
-        height: 114vh;
+        height: 160vh;
         padding: 0;
         background: #111;
     }
@@ -202,7 +202,7 @@ section .container {
         transition: all 2s ease;
     }
     .graphBox {
-        grid-gap: 0px;
+        grid-gap: 174px;
     }
 }
 /* @media ((min-width: 390px) and (max-width: 844px)){
